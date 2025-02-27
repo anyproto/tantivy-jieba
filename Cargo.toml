@@ -10,9 +10,8 @@ keywords = ["tantivy", "jieba"]
 license = "MIT"
 
 [dependencies]
-jieba-rs = "0.7.0"
-lazy_static = "1.4.0"
-tantivy-tokenizer-api = "0.3.0"
-
+jieba-rs = "0.7.2"
+lazy_static = "1.5.0"
+tantivy-tokenizer-api = { git = "https://github.com/anyproto/tantivy.git", rev = "693274a5d4be6da9d069dff4d540162165a99b0e", package = "tantivy-tokenizer-api" }
 [dev-dependencies]
-tantivy = "0.22.0"
+tantivy = { git = "https://github.com/anyproto/tantivy.git", rev = "693274a5d4be6da9d069dff4d540162165a99b0e" }
